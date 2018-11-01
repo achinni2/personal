@@ -35,7 +35,6 @@ object Empty extends IntSet
 
   override def union(other: IntSet) = other
 }
-
 val t1 = new NonEmpty(3,Empty,Empty)
 val t2 = t1 incl 4
 val t3 = t1 incl 5
