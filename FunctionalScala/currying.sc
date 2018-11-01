@@ -30,7 +30,7 @@ def mapReduce(f:Int => Int) (combine : (Int,Int) => Int)(zero : Int)(a: Int,b: I
 // test product using generic function
 mapReduce(x=>x)((x,y) => x*y)(1)(1,5)
 
-//test sum using generic function
+//test sum using generic functionsbt
 mapReduce(x=> x)((x,y)=>x+y)(0)(1,10)
 
 // sqrt of a number
